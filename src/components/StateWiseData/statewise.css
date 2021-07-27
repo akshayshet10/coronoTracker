@@ -1,0 +1,240 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+   
+}
+
+/* .container-fluid{
+    width: 50%;
+    margin: auto; 
+} */
+.table-responsive{
+    max-height: 300px;
+    box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
+}
+tr:hover{
+    background-color: gold;
+}
+/* td,th{
+    position: relative;
+    font-size: 20px;
+} */
+/* .table td,
+ .table th{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+    outline: rgb(3, 3, 3);
+} */
+td:hover::after,
+th:hover::after{
+    content: "";
+    position: absolute;
+    background-color: greenyellow;
+    left: 0;
+    top: -5000px;
+    height: 5000px;
+    width: 100%;
+    z-index: -1;
+}
+.table tr td:hover:nth-child(4){
+    background-color: crimson;
+    color: aliceblue;
+    border: 0px solid rgb(3, 3, 3);
+}
+.table tr td:hover{
+    background-color: rgb(66, 200, 111);
+    color: aliceblue;
+    border: 0px solid rgb(3, 3, 3);
+}
+
+
+.thead-dark{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sfont{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(6, 136, 153);
+}
+.footer{
+    background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and(max-width:600px){
+    .container-fluid{
+        width: 95%;
+        margin: auto; 
+    
+    }
+    td,th{
+        position: relative;
+        font-size: 9px;
+    }
+
+    .table td,
+ .table th{
+    
+    padding: 0.3rem;
+    vertical-align: top;
+    border-top: none;
+    outline: rgb(3, 3, 3);
+    
+}
+    .table-responsive{
+        max-height: 300px;
+        box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
+    }
+    
+.sfont{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(6, 136, 153);
+}
+.footer{
+    background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-width:600px){
+    .container-fluid{
+        width: 50%;
+        margin: auto; 
+    }
+    td,th{
+        position: relative;
+        font-size: 7px;
+    }
+    .table td,
+ .table th{
+    padding: 0.3rem;
+    vertical-align: top;
+    border-top: none;
+    outline: rgb(3, 3, 3);
+}
+    .table-responsive{
+        max-height: 300px;
+        box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
+    }
+    
+.sfont{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(6, 136, 153);
+}
+.footer{
+    background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-width:768px){
+    .container-fluid{
+        width: 100%;
+        margin: auto; 
+    }
+    td,th{
+        position: relative;
+        font-size: 20px;
+    }
+    .table td,
+ .table th{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+    outline: rgb(3, 3, 3);
+}
+    .table-responsive{
+        max-height: 300px;
+        box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
+    }
+    
+.sfont{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(6, 136, 153);
+}
+.footer{
+    background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-width:992px){
+    .container-fluid{
+        width: 50%;
+        margin: auto; 
+    }
+    td,th{
+        position: relative;
+        font-size: 20px;
+    }
+    .table td,
+ .table th{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+    outline: rgb(3, 3, 3);
+}
+    .table-responsive{
+        max-height: 300px;
+        box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
+    }
+    
+.sfont{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(6, 136, 153);
+}
+.footer{
+    background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-width:1200px){
+    .container-fluid{
+        width: 50%;
+        margin: auto; 
+    }
+    td,th{
+        position: relative;
+        font-size: 20px;
+    }
+    .table td,
+ .table th{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+    outline: rgb(3, 3, 3);
+}
+    .table-responsive{
+        max-height: 300px;
+        box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
+    }
+    
+.sfont{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(6, 136, 153);
+}
+.footer{
+    background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+}
