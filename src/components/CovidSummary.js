@@ -54,5 +54,5 @@ function CovidSummary(props) {
 
 
 
-export default CovidSummary
+export default CovidSummary;
 

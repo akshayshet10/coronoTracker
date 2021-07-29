@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './statewise.css';
 
+
 const Statewise = () => {
 
      const [data, setData] = useState([]);
@@ -48,7 +49,7 @@ const Statewise = () => {
 
                                     return(
                                      <tr key={ind}>
-                                        <td> {curEle.state} </td>
+                                        <td>{curEle.state} </td>
                                         <td>{curEle.confirmed}</td>
                                         <td>{curEle.recovered}</td>
                                         <td>{curEle.deaths}</td>
