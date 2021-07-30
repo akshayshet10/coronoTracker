@@ -7,9 +7,9 @@ const Navbar = () => {
     return (
         
         <Fragment >
-            <Link className="nav-bar" to="/">Home </Link>
+            <Link className="nav-bar" to="/">World Wide </Link>
             <Link className="nav-bar" to="/india"> India </Link>
-            <Link className="nav-bar" to = "/karnataka"> Karnataka</Link>
+            {/* <Link className="nav-bar" to = "/karnataka"> Karnataka</Link> */}
            
         </Fragment>
     )

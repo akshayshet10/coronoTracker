@@ -4,9 +4,10 @@
     padding-left: 59px;
     text-decoration: none;
     font-size: 20px;
+    justify-content: center;
     
 }
 
 .nav-bar:hover{
-    color: #0884aa;
+    color: #b60750;
 }

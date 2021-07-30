@@ -21,8 +21,13 @@ const LineGraph = (props) => {
                   }
             }
             
+            
             />
+            <div className="footer">
+               <h6>Akshay shet G @2021</h6>
+                </div>
         </div>
+        
     )
 }
 

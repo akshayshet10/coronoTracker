@@ -4,22 +4,31 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;  
+    
 }
-.Statewise{
-    /* text-align: center; */
+/* .Statewise{
+
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: rgb(235, 234, 232);
     background-image: radial-gradient(rgba(222, 236, 222, 0.98),rgba(2, 153, 158, 0.6)),url(https://cdn.pixabay.com/photo/2020/05/20/08/47/banner-5195486_960_720.jpg);
     
-}
+} */
+.container-fluid{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(235, 234, 232);
+    background-image: radial-gradient(rgba(222, 236, 222, 0.98),rgba(2, 153, 158, 0.6)),url(https://cdn.pixabay.com/photo/2020/05/20/08/47/banner-5195486_960_720.jpg);
+    
+  }
 
 /* .container-fluid{
     width: 50%;
     margin: auto; 
 } */
 .table-responsive{
-    max-height: 500px;
+    max-height: 300px;
     box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
 }
 tr:hover{
@@ -67,7 +76,7 @@ th:hover::after{
 .sfont{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(6, 136, 153);
+    color: rgb(236, 247, 250);
 }
 .footer{
     background-color: rgb(44, 137, 212);
@@ -103,7 +112,7 @@ th:hover::after{
 .sfont{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(6, 136, 153);
+    color: rgb(236, 247, 250);
 }
 .footer{
     background-color: rgb(44, 137, 212);
@@ -136,7 +145,7 @@ th:hover::after{
 .sfont{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(6, 136, 153);
+    color: rgb(236, 247, 250);
 }
 .footer{
     background-color: rgb(44, 137, 212);
@@ -169,7 +178,7 @@ th:hover::after{
 .sfont{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(6, 136, 153);
+    color: rgb(236, 247, 250);
 }
 .footer{
     background-color: rgb(44, 137, 212);
@@ -202,19 +211,27 @@ th:hover::after{
 .sfont{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(6, 136, 153);
+    color: rgb(236, 247, 250);
 }
 .footer{
+    /* background-color: rgb(44, 137, 212);
+    padding-top: 5px;
+    padding-bottom: 5px; */
+
+    margin-top: 50px;
     background-color: rgb(44, 137, 212);
     padding-top: 5px;
     padding-bottom: 5px;
+    /* justify-content: center; */
+    text-align: center;
 }
 }
 
 @media only screen and (min-width:1200px){
     .container-fluid{
-        width: 50%;
+        width: 90%;
         margin: auto; 
+        height: 100%;
     }
     td,th{
         position: relative;
@@ -228,14 +245,14 @@ th:hover::after{
     outline: rgb(3, 3, 3);
 }
     .table-responsive{
-        max-height: 300px;
+        max-height: 600px;
         box-shadow: rgb(3, 3, 3) 0px,25px,50px,-12px;
     }
     
 .sfont{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(6, 136, 153);
+    color: rgb(236, 247, 250);
 }
 .footer{
     background-color: rgb(44, 137, 212);

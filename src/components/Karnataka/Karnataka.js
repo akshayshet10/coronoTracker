@@ -19,7 +19,7 @@
 //   const [coronaCountAr,setCoronaCountAr] =useState([]);
 //   const [label,setLabel]=useState([]);
 
-//   //componentdidmount
+//   componentdidmount 
 //   useEffect(() => {
     
 //     setLoading(true);
@@ -136,84 +136,84 @@
 
 
 
-import React, { useState,useEffect } from 'react';
-import './karnataka.css';
+// import React, { useState,useEffect } from 'react';
+// import './karnataka.css';
 
 
-const Distictwise = () => {
+// const Distictwise = () => {
 
-     const [data, setData] = useState([]);
+//      const [data, setData] = useState([]);
         
-        const getCovidData = async() =>{
-          const res = await fetch('https://api.covid19india.org/v4/min/data.min.json');
-          const actualData = await res.json();
-          console.log(actualData.KA);
+//         const getCovidData = async() =>{
+//           const res = await fetch('https://api.covid19india.org/v4/min/data.min.json');
+//           const actualData = await res.json();
+//           console.log(actualData.KA.districts);
 
-          setData(actualData.KA);
-        }
+//           setData(actualData.KA.districts);
+//         }
 
-        useEffect(() => {
+//         useEffect(() => {
 
-        getCovidData();
-    }, []);
+//         getCovidData();
+//     }, []);
 
-    return (
-        <>
+//     return (
+//         <>
           
-           <div className="container-fluid mt-1">
-               <div className="main-heading"> 
-               <h3 className="mb-2"> Tracking <span className="sfont">Karnataka's</span> CoronaVirus Report </h3> 
+//            <div className="container-fluid mt-1">
+//                <div className="main-heading"> 
+//                <h3 className="mb-2"> Tracking <span className="sfont">Karnataka's</span> CoronaVirus Report </h3> 
 
-               </div>
-               <div className="table-responsive">
+//                </div>
+//                <div className="table-responsive">
                    
-                <table className="table table-hover">
+//                 <table className="table table-hover">
                     
-                    <thead className="thead-dark">
-                        <tr>
-                            <th>States</th>
-                            <th>Confirmed</th>
-                            <th>Recovered</th>
-                            <th>Death</th>
-                            <th>Active</th>
-                            <th>Updated</th>
-                        </tr>
+//                     <thead className="thead-dark">
+//                         <tr>
+//                             <th>States</th>
+//                             <th>Confirmed</th>
+//                             <th>Recovered</th>
+//                             <th>Death</th>
+//                             <th>Active</th>
+//                             <th>Updated</th>
+//                         </tr>
 
-                    </thead>
+//                     </thead>
                     
-                    <tbody>
-                            {/* {
-                                data.map((curEle, ind,)=>{
+//                     <tbody>
+//                             {/* {
+//                                 data.map((curEle, ind,)=>{
 
-                                    return(
-                                     <tr key={ind}>
-                                        <td>{curEle.districts} </td>
-                                        <td>{curEle.confirmed}</td>
-                                        <td>{curEle.recovered}</td>
-                                        <td>{curEle.deaths}</td>
-                                        <td>{curEle.active}</td>
-                                        <td>{curEle.lastupdatedtime}</td>
-                                     </tr>
+//                                     return(
+//                                      <tr key={ind}>
+//                                         <td>{curEle.districts} </td>
+//                                         <td>{curEle.confirmed}</td>
+//                                         <td>{curEle.recovered}</td>
+//                                         <td>{curEle.deaths}</td>
+//                                         <td>{curEle.active}</td>
+//                                         <td>{curEle.lastupdatedtime}</td>
+//                                      </tr>
 
-                                    )
+//                                     )
 
-                                }
-                              )
-                            }           */}
-                    </tbody>
+//                                 }
+//                               )
+//                             }           */}
+//                     </tbody>
                     
-                </table>
+//                 </table>
                 
 
-               </div>
+//                </div>
                
-           </div>
-           <div className="footer">
-               <h6>Akshay shet G @2021</h6>
-                </div>
-        </>
-    )
-}
+//            </div>
+//            <div className="footer">
+//                <h6>Akshay shet G @2021</h6>
+//                 </div>
+//         </>
+//     )
+// }
 
 
-export default Distictwise;
+// export default Distictwise;
